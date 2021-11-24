@@ -1,0 +1,27 @@
+.calculator{
+    background: lightgrey;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 20px;
+    .box{
+        background: white;
+        text-align: center;
+        color: grey;
+    }
+    .header{
+        background: darkgrey;
+        color: white;
+        grid-column: 1/5;
+    }
+    .is{
+        background: rgb(15, 142, 184);
+        color: white;
+        grid-row: -5/-1;
+        grid-column: 4/5;
+    }
+}
